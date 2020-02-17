@@ -20,9 +20,14 @@ input[type=tel]:focus
 	border-color: dodgerBlue;
 }
 
+.field
+{
+	text-align: center;
+}
+
 #paper_10000, #paper_5000, #paper_1000
 {
-	margin-left: 120px;
+	//margin-left: 120px;
 }
 
 #send, #clear
