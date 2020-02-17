@@ -1,7 +1,7 @@
 body
 {
-	zoom: 3.0;
-	-moz-transform: scale(3.0);
+	zoom: 1.5;
+	-moz-transform: scale(1.5);
 }
 
 input[type=tel]
@@ -9,6 +9,7 @@ input[type=tel]
 	border: 2px solid black;
 	text-align: right;
 	width: 100px;
+	font-size: 16px;
 }
 
 input[type=tel]:focus
