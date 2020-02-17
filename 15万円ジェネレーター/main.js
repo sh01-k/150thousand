@@ -82,7 +82,7 @@ function calc()
           {
             i = 100 * c100;
             to = to - i;
-            result = result + '\n    100円 --->' + c100;
+            result = result + '\n    100円 ---> ' + c100;
 
             if (c50 * 50 >= to)
             {
