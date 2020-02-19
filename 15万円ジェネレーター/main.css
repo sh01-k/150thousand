@@ -1,7 +1,8 @@
 body
 {
-	zoom: 1.5;
-	-moz-transform: scale(1.5);
+	zoom: 200%;
+	//zoom: 1.5;
+	//-moz-transform: scale(1.5);
 }
 
 #label
