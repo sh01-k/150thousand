@@ -17,7 +17,7 @@ input[type=tel]:focus
 	border: 2px solid dodgerBlue;
 }
 
-input[type=button]
+button
 {
 	height: 30px;
 	border: 2px solid dodgerBlue;
@@ -28,7 +28,7 @@ input[type=button]
 	transition: .2s;
 }
 
-input[type=button]:hover
+button:hover
 {
 	background-color: dodgerBlue;
 	cursor: pointer;
