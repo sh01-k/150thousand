@@ -1,13 +1,12 @@
 body
 {
 	zoom: 250%;
-	//zoom: 1.5;
-	//-moz-transform: scale(1.5);
 }
 
 #label
 {
 	margin-bottom: -10px;
+	font-size: 16px;
 }
 
 input[type=tel]
