@@ -5,6 +5,12 @@ body
 	zoom: 250%;
 }
 
+h1
+{
+	text-align: center;
+	color: dodgerBlue;
+}
+
 #label
 {
 	margin-bottom: -10px;
