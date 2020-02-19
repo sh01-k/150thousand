@@ -1,8 +1,3 @@
-function zoom(scale)
-{
-  window.parent.document.body.style.zoom = scale;
-}
-
 function calc()
 {
   let failed_msg = "結果: 失敗 \n%replace%円足りません";
