@@ -1,6 +1,8 @@
 function calc()
 {
+  let failed_msg = "結果: 失敗 \n%replace%円足りません";
   let result = "";
+
   let p10000 = isNaN(parseInt(document.getElementById('paper_10000').value, 10)) ? 0 : parseInt(document.getElementById('paper_10000').value, 10);
   let p5000 = isNaN(parseInt(document.getElementById('paper_5000').value, 10)) ? 0 : parseInt(document.getElementById('paper_5000').value, 10);
   let p1000 = isNaN(parseInt(document.getElementById('paper_1000').value, 10)) ? 0 : parseInt(document.getElementById('paper_1000').value, 10);
@@ -128,8 +130,8 @@ function calc()
                   }
                   else
                   {
-                    let less = to - c1
-                    result = '結果: 失敗 ---> ' + less + '円足りない';
+                    let s = to - c1
+                    result = failed_msg.replace('%replace%', s.toLocaleString());
                     alert(result);
                   }
                 }
