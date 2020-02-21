@@ -39,7 +39,6 @@ button, #generate
 	color: white;
 	font-weight: bold;
 	letter-spacing: .1em;
-	transition: .2s;
 }
 
 button, #reset
@@ -51,7 +50,6 @@ button, #reset
 	color: black;
 	font-weight: bold;
 	letter-spacing: .1em;
-	transition: .2s;
 }
 
 button:hover
