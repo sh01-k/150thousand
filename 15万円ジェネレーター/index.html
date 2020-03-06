@@ -9,6 +9,7 @@
 	<body>
 		<h1>15万円ジェネレーター</h1>
 		<div class="field">
+			<form autocomplete="off">
 			<p id="label">10000円札</p>
 			<p><input type="tel" placeholder="枚数" id="paper_10000"></p>
 			<p id="label">5000円札</p>
@@ -29,6 +30,7 @@
 			<p><input type="tel" placeholder="棒金" id="coin_stick_1">&nbsp;&nbsp;&nbsp;<input type="tel" placeholder="枚数" id="coin_1"></p>
 			<p><button type="button" id="generate" onclick="calc();">作成</button></p>
 			<p><button type="button" id="reset" onclick="window.location.reload();">リセット</button></p>
+			</form>
 		</div>
 	</body>
 </html>
