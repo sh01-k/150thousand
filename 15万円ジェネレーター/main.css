@@ -1,66 +1,66 @@
 body
 {
-	-webkit-appearance: none;
-	-webkit-text-size-adjust: 250%;
-	zoom: 250%;
+    -webkit-appearance: none;
+    -webkit-text-size-adjust: 250%;
+    zoom: 250%;
 }
 
 h1
 {
-	text-align: center;
-	color: dodgerBlue;
+    text-align: center;
+    color: dodgerBlue;
 }
 
 #label
 {
-	margin-bottom: -10px;
-	font-size: 16px;
+    margin-bottom: -10px;
+    font-size: 16px;
 }
 
 input[type=tel]
 {
-	border: 2px solid black;
-	text-align: right;
-	width: 100px;
-	font-size: 16px;
+    border: 2px solid black;
+    text-align: right;
+    width: 100px;
+    font-size: 16px;
 }
 
 input[type=tel]:focus
 {
-	border: 2px solid dodgerBlue;
+    border: 2px solid dodgerBlue;
 }
 
 button, #generate
 {
-	height: 30px;
-	border: 2px solid dodgerBlue;
-	border-radius: 0px;
-	background-color: dodgerBlue;
-	color: white;
-	font-weight: bold;
-	letter-spacing: .1em;
+    height: 30px;
+    border: 2px solid dodgerBlue;
+    border-radius: 0px;
+    background-color: dodgerBlue;
+    color: white;
+    font-weight: bold;
+    letter-spacing: .1em;
 }
 
 button, #reset
 {
-	height: 30px;
-	border: 2px solid dodgerBlue;
-	border-radius: 0px;
-	background-color: white;
-	color: black;
-	font-weight: bold;
-	letter-spacing: .1em;
+    height: 30px;
+    border: 2px solid dodgerBlue;
+    border-radius: 0px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    letter-spacing: .1em;
 }
 
 button:hover
 {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .field
 {
-	text-align: center;
-	line-height: 0.6;
+    text-align: center;
+    line-height: 0.6;
 }
 
 #paper_10000, #paper_5000, #paper_1000
@@ -70,5 +70,5 @@ button:hover
 
 #generate, #reset
 {
-	width: 224.5px;
+    width: 224.5px;
 }
