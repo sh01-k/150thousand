@@ -3,6 +3,7 @@ body
     -webkit-appearance: none;
     -webkit-text-size-adjust: 250%;
     zoom: 250%;
+    font-family: 'sans-serif';
 }
 
 h1
